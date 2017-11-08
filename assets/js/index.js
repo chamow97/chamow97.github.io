@@ -76,6 +76,7 @@ $(document).ready(function() {
 });
 
 function homeDownAction(){
-    var currentLocation = window.location.pathname;
-    alert(currentLocation);
+    var currentHost = window.location.hostname;
+    var newLocation = "/#about";
+    window.location.href = currentHost + newLocation;
 }
