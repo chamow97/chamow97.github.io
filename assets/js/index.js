@@ -75,8 +75,6 @@ $(document).ready(function() {
 	});
 });
 
-function homeDownAction(){
-    var currentHost = window.location.hostname;
-    var newLocation = "/#about";
-    window.location.href = currentHost + newLocation;
+function downAction(){
+    $.fn.fullpage.moveSectionDown();
 }
