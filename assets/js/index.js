@@ -75,3 +75,7 @@ $(document).ready(function() {
 	});
 });
 
+function homeDownAction(){
+    var currentLocation = window.location.pathname;
+    alert(currentLocation);
+}

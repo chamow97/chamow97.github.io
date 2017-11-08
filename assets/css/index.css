@@ -60,3 +60,11 @@ body{
         font-size: 25px;
     }
 }
+.downControl{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
