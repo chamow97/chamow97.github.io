@@ -1,0 +1,61 @@
+body{
+    margin: 0px 0px 0px 0px;
+}
+
+.background-img{
+    width: 100%;
+    height: auto;
+    margin-top: -14%;
+    z-index: 20;
+    position: absolute;
+}
+.element{
+	position: relative;
+	z-index: 150;
+}
+
+.profile-pic{
+    height: 150px;
+    width: 175px;
+    border-radius: 50%;
+}
+
+.intro{
+    font-family: 'Droid Sans', sans-serif;
+    color: azure;
+    font-size: 40px;
+}
+.section{
+    position: relative;
+}
+.red-heart{
+    color: red;
+}
+.down-glyphicon{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+.delay-1{
+    animation-delay: .25s;
+}
+.delay-2{
+    animation-delay: .5s;
+}
+.delay-3{
+    animation-delay: .75s;
+}
+.highlight1{
+    color: #00ff74;
+}
+.highlight2{
+     color: #00ff74;
+ }
+@media only screen and (max-device-width : 600px)
+{
+    body
+    {
+        font-size: 20px;
+    }
+}
