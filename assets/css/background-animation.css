@@ -73,12 +73,12 @@ header a, a:visited {
 }
 
 .stars {
-    background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+    background:#000 url('../images/other/stars.png') repeat top center;
     z-index:0;
 }
 
 .twinkling{
-    background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+    background:transparent url('../images/other/twinkling.png') repeat top center;
     z-index:1;
 
     -moz-animation:move-twink-back 200s linear infinite;
@@ -89,7 +89,7 @@ header a, a:visited {
 }
 
 .clouds{
-    background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
+    background:transparent url('../images/other/clouds3.png') repeat top center;
     z-index:3;
 
     -moz-animation:move-clouds-back 200s linear infinite;

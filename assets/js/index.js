@@ -75,6 +75,8 @@ $(document).ready(function() {
 	});
 });
 
+
+
 function downAction(){
     $.fn.fullpage.moveSectionDown();
 }

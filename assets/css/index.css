@@ -34,8 +34,10 @@ body{
 .down-glyphicon{
     font-size: 40px;
     color: white;
-    position: absolute;
-    bottom: 0;
+}
+.downButton{
+    position : fixed;
+    bottom : 0;
 }
 .delay-1{
     animation-delay: .25s;
