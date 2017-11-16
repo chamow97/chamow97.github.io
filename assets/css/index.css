@@ -97,8 +97,13 @@ body{
     margin-right: auto;
     text-align: center;
 }
-a:hover, a:visited{
+a:hover{
     color: white;
     text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
     #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
+}
+a:visited{
+    color: white;
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
 }
