@@ -84,7 +84,7 @@ body{
 
 }
 .cursiveFont{
-    font-family: 'Lobster', cursive;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 30px;
     color: white;
 }
@@ -97,10 +97,12 @@ body{
     margin-right: auto;
     text-align: center;
 }
+
 a:hover{
     color: white;
     text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
     #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
+    text-decoration: none;
 }
 a:visited{
     color: white;
