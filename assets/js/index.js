@@ -48,7 +48,7 @@ $(document).ready(function() {
 		//Design
 		controlArrows: true,
 		verticalCentered: true,
-		sectionsColor : ['#000000', '#ffffff', '#122334'],
+		sectionsColor : ['#000000', '#122334', '#122334'],
 		paddingTop: '3em',
 		paddingBottom: '10px',
 		fixedElements: '#header, .footer',
@@ -74,7 +74,6 @@ $(document).ready(function() {
 		onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
 	});
 });
-
 
 
 function downAction(){

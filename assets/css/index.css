@@ -16,27 +16,36 @@ body{
 
 .profile-pic{
     height: 150px;
-    width: 175px;
-    border-radius: 50%;
+    width: 200px;
+    border-radius: 10%;
 }
 
 .intro{
     font-family: 'Droid Sans', sans-serif;
     color: azure;
-    font-size: 40px;
+    font-size: 36px;
 }
 .section{
     position: relative;
 }
 .red-heart{
     color: red;
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+    animation-iteration-count: 100000;
+}
+.blue-heart{
+    color: blueviolet;
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+    animation-iteration-count: 100000;
 }
 .down-glyphicon{
     font-size: 40px;
     color: white;
 }
 .downButton{
-    position : fixed;
+    position : absolute;
     bottom : 0;
 }
 .delay-1{
@@ -59,7 +68,7 @@ body{
     body
     {
         margin: 0px 0px 0px 0px;
-        font-size: 25px;
+        font-size: 30px;
     }
 }
 .downControl{
@@ -69,4 +78,27 @@ body{
     cursor:pointer;
     overflow: hidden;
     outline:none;
+}
+.about{
+    margin: 0px 0px 0px 0px;
+
+}
+.cursiveFont{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: white;
+}
+.highlightText{
+    text-shadow: #FF0000  0px 0px 1px,   #FF0000  0px 0px 1px,   #FF0000  0px 0px 1px,
+    #FF0000  0px 0px 1px,   #FF0000  0px 0px 1px,   #FF0000  0px 0px 1px;
+}
+.centerText{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+a:hover, a:visited{
+    color: white;
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
 }
