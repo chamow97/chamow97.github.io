@@ -99,6 +99,6 @@ body{
 }
 a:hover, a:visited{
     color: white;
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
+    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
 }
