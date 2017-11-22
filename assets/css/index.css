@@ -68,7 +68,7 @@ body{
     body
     {
         margin: 0px 0px 0px 0px;
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 .downControl{
@@ -85,7 +85,7 @@ body{
 }
 .cursiveFont{
     font-family: 'Droid Sans', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
 .highlightText{
@@ -107,6 +107,23 @@ a:hover, a:active, a:visited{
     font-family: 'Francois One', sans-serif;
 }
 .clipart{
-    height: 140px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
+}
+.mediumFont{
+    font-size: 18px;
+}
+.blackWhiteText{
+    color: black;
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+}
+.whiteBlackText{
+    color: white;
+    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
+    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
+}
+.clipart1{
+    height: 80px;
+    width: 80px;
 }
