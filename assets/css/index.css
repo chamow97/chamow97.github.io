@@ -68,7 +68,7 @@ body{
     body
     {
         margin: 0px 0px 0px 0px;
-        font-size: 20px;
+        font-size: 23px;
     }
 }
 .downControl{
@@ -98,8 +98,8 @@ body{
     text-align: center;
 }
 
-a:hover, a:active, a:visited{
-    color: white;
+a > a:hover > a:active > a:visited{
+    color: black;
     text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
     #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
 }
@@ -111,7 +111,7 @@ a:hover, a:active, a:visited{
     width: 100px;
 }
 .mediumFont{
-    font-size: 18px;
+    font-size: 22px;
 }
 .blackWhiteText{
     color: black;
@@ -122,6 +122,11 @@ a:hover, a:active, a:visited{
     color: white;
     text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
     #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
+}
+.greenBlackText{
+    color: darkblue;
+    text-shadow: greenyellow  0px 0px 1px,   greenyellow  0px 0px 1px,   greenyellow  0px 0px 1px,
+    greenyellow  0px 0px 1px,   greenyellow  0px 0px 1px,   greenyellow  0px 0px 1px;
 }
 .clipart1{
     height: 80px;
