@@ -4,7 +4,7 @@ $(document).ready(function() {
 		//Navigation
 		menu: '#menu',
 		lockAnchors: false,
-		anchors:['home', 'about', 'projects'],
+		anchors:['home', 'about', 'whatIDo?'],
 		navigation: false,
 		navigationPosition: 'right',
 		navigationTooltips: ['Home', 'About', 'Projects'],
@@ -48,7 +48,7 @@ $(document).ready(function() {
 		//Design
 		controlArrows: true,
 		verticalCentered: true,
-		sectionsColor : ['#000000', '#122334', '#122334'],
+		sectionsColor : ['#000000', '#ff5b5b', '#ffbd23'],
 		paddingTop: '3em',
 		paddingBottom: '10px',
 		fixedElements: '#header, .footer',

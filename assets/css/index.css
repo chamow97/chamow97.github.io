@@ -29,15 +29,15 @@ body{
     position: relative;
 }
 .red-heart{
-    color: red;
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+    color: greenyellow;
+    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
+    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
     animation-iteration-count: 100000;
 }
 .blue-heart{
-    color: blueviolet;
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+    color: #15f4ee;
+    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
+    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
     animation-iteration-count: 100000;
 }
 .down-glyphicon{
@@ -84,13 +84,13 @@ body{
 
 }
 .cursiveFont{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Droid Sans', sans-serif;
     font-size: 30px;
     color: white;
 }
 .highlightText{
-    text-shadow: #FF0000  0px 0px 1px,   #FF0000  0px 0px 1px,   #FF0000  0px 0px 1px,
-    #FF0000  0px 0px 1px,   #FF0000  0px 0px 1px,   #FF0000  0px 0px 1px;
+    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
+    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
 }
 .centerText{
     margin-left: auto;
@@ -98,14 +98,15 @@ body{
     text-align: center;
 }
 
-a:hover{
-    color: white;
-    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
-    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
-    text-decoration: none;
-}
-a:visited{
+a:hover, a:active, a:visited{
     color: white;
     text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
     #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+}
+.francoisFont{
+    font-family: 'Francois One', sans-serif;
+}
+.clipart{
+    height: 140px;
+    width: 150px;
 }
