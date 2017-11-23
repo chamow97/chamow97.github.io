@@ -36,8 +36,8 @@ body{
 }
 .blue-heart{
     color: #15f4ee;
-    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
-    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
     animation-iteration-count: 100000;
 }
 .down-glyphicon{
@@ -86,7 +86,7 @@ body{
 .cursiveFont{
     font-family: 'Droid Sans', sans-serif;
     font-size: 25px;
-    color: white;
+    color: #fff;
 }
 .highlightText{
     text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
@@ -98,7 +98,17 @@ body{
     text-align: center;
 }
 
-a > a:hover > a:active > a:visited{
+a, a:hover, a:active, a:visited{
+    color: white;
+    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
+    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
+}
+.highlightText:visited{
+    color: white;
+    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
+    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
+}
+.highlightText:hover{
     color: black;
     text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
     #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
