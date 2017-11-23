@@ -4,17 +4,17 @@ $(document).ready(function() {
 		//Navigation
 		menu: '#menu',
 		lockAnchors: false,
-		anchors:['home', 'about', 'whatIDo?'],
-		navigation: false,
+		anchors:['home', 'about', 'whatIDo?', 'projects'],
+		navigation: true,
 		navigationPosition: 'right',
-		navigationTooltips: ['Home', 'About', 'Projects'],
-		showActiveTooltip: false,
-		slidesNavigation: false,
+		navigationTooltips: ['Home', 'About', 'What I do?', 'Projects'],
+		showActiveTooltip: true,
+		slidesNavigation: true,
 		slidesNavPosition: 'bottom',
 
 		//Scrolling
 		css3: true,
-		scrollingSpeed: 700,
+		scrollingSpeed: 1000,
 		autoScrolling: true,
 		fitToSection: true,
 		fitToSectionDelay: 1000,
@@ -48,7 +48,7 @@ $(document).ready(function() {
 		//Design
 		controlArrows: true,
 		verticalCentered: true,
-		sectionsColor : ['#000000', '#ff3045', '#ffbd23'],
+		sectionsColor : ['#000000', '#ff3045', '#ffbd23', '#458eff'],
 		paddingTop: '3em',
 		paddingBottom: '10px',
 		fixedElements: '#header, .footer',
