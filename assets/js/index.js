@@ -142,8 +142,3 @@ var typed = new Typed('.typedMusic', {
 function downAction(){
     $.fn.fullpage.moveSectionDown();
 }
-$('.projectShowcase').masonry({
-    // options
-    itemSelector: '.grid-item',
-    columnWidth: 200
-});
