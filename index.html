@@ -6,13 +6,18 @@
         <!--scripts of libraries-->
         <script type="text/javascript" src="assets/frameworks/jquery/jquery-3.2.1.js"></script>
         <script type="text/javascript" src="assets/frameworks/fullPage.js-master/jquery.fullPage.min.js"></script>
-        <script type="text/javascript" src="assets/frameworks/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <!--<script type="text/javascript" src="assets/frameworks/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
         <script type="text/javascript" src="assets/frameworks/typed-lib.js/lib/typed.min.js"></script>
+        <script type="text/javascript" src="assets/frameworks/masonry.js"></script>
         <!--project css files-->
         <link rel="shortcut icon" type="image/png" href="assets/images/logo/icon.png">
         <link rel="stylesheet" type="text/css" href="assets/css/index.css">
         <link rel="stylesheet" type="text/css" href="assets/css/background-animation.css">
-        <link rel="stylesheet" type="text/css" href="assets/frameworks/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        <!--<link rel="stylesheet" type="text/css" href="assets/frameworks/bootstrap-3.3.7-dist/css/bootstrap.min.css">-->
         <!--css of libraries-->
         <link rel="stylesheet" type="text/css" href="assets/frameworks/fullPage.js-master/jquery.fullPage.css">
         <!-- animate.css -->
@@ -32,7 +37,7 @@
                                 <div class="centerText">
 
                                     <p class="delay-1 intro text animated fadeInUp center-text">
-                                      Hi I'm Chandramowli!
+                                    Hi I'm Chandramowli!
                                     </p>
                                     <br>
                                     <p class="delay-2 intro text animated fadeInUp">
@@ -42,20 +47,13 @@
                                     </p>
                                 </div>
                         </div>
-                        <div class="row">
-                            <div class="downButton col col-sm-offset-6 col-md-offset-6 col-lg-offset-6 col-xs-offset-6">
-                                <button onclick="downAction()" class="downControl">
-                                    <span class="glyphicon glyphicon-chevron-down down-glyphicon"></span>
-                                </button>
-                            </div>
-                        </div>
+
                     </div>
-            	<div class="section about">
-                    <div class="row">
-                        <div class="col col-sm-offset-5 col-md-offset-5 col-lg-offset-5 col-xs-offset-5">
-                            <img class="profile-pic" src="assets/images/other/profile.jpg" alt="Profile Picture">
-                        </div>
-                    </div>
+            	<div class="section about centerText">
+                    <h1 class="francoisFont centerText whiteText">About</h1>
+                    <br>
+                    <br>
+                    <img class="profile-pic" src="assets/images/other/profile.jpg" alt="Profile Picture">
                     <br>
                     <br>
                     <div class="row">
@@ -90,13 +88,7 @@
 
                         </p>
                     </div>
-                    <div class="row">
-                        <div class="downButton col col-sm-offset-6 col-md-offset-6 col-lg-offset-6 col-xs-offset-6">
-                            <button onclick="downAction()" class="downControl">
-                                <span class="glyphicon glyphicon-chevron-down down-glyphicon"></span>
-                            </button>
-                        </div>
-                    </div>
+
                 </div>
             	<div class="section centerText whatIDoSection">
                     <h1 class="francoisFont">What I Do?</h1>
@@ -144,15 +136,124 @@
 
                     </p>
                     <br>
-                    <div class="row">
-                        <div class="downButton col col-sm-offset-6 col-md-offset-6 col-lg-offset-6 col-xs-offset-6">
-                            <button onclick="downAction()" class="downControl">
-                                <span class="glyphicon glyphicon-chevron-down down-glyphicon"></span>
-                            </button>
+
+                </div>
+            <div class="section centerText projectSection">
+                <h1 class="francoisFont whiteText">Projects</h1>
+                <div class="row projects-list">
+                    <div class="col col-sm-4 col-md-4 col-lg-3 col-xs-4">
+
+                        <div class="card" style="width: 100%;">
+                            <br>
+                            <div class="card-body">
+                                <h4 class="card-title">Algorithm and DS Library</h4>
+                                <p class="card-text">A collection of basic and advanced Algorithms and Data Structures
+                                    implemented in C++.</p>
+                                <a target="_blank" href="https://chamow97.github.io/Algorithm-DS-Library/" class="btn btn-primary">Project</a>
+
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col col-sm-4 col-md-4 col-lg-3 col-xs-4">
+
+                        <div class="card" style="width: 100%;">
+                            <br>
+                            <div class="card-body">
+                                <h4 class="card-title">Computer Networks</h4>
+                                <p class="card-text">Basic implementation of Algorithms and Concepts taught
+                                    in Computer Networks Course.</p>
+                                <a href="https://chamow97.github.io/Computer-Networks/" class="btn btn-primary">Project</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col col-sm-4 col-md-4 col-lg-3 col-xs-4">
+
+                        <div class="card" style="width: 100%;">
+                            <br>
+                            <div class="card-body">
+                                <h4 class="card-title">Operating System</h4>
+                                <p class="card-text">Basic Implementation of the Algorithms and Concepts
+                                    taught in the Operating System Course.</p>
+                                <a href="https://chamow97.github.io/Operating-System-World/" target="_blank" class="btn btn-primary">Project</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col col-sm-4 col-md-4 col-lg-3 col-xs-4">
+
+                        <div class="card" style="width: 100%;">
+                            <br>
+                            <div class="card-body">
+                                <h4 class="card-title">Snappy</h4>
+                                <p class="card-text">A web-app which brings images tagged with the searched
+                                term as a Gallery from Twitter and Tumblr.</p>
+                                <a href="https://chamow97.github.io/snappy" class="btn btn-primary" target="_blank">Project</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col col-sm-4 col-md-4 col-lg-3 col-xs-4">
+
+                        <div class="card" style="width: 100%;">
+                            <br>
+                            <div class="card-body">
+                                <h4 class="card-title">Sport Programming</h4>
+                                <p class="card-text">A collection of all my submissions to the
+                                    Competitive Coding Challenges
+                                    implemented in C++.</p>
+                                <a target="_blank" href="https://chamow97.github.io/Competitive-Coding/" class="btn btn-primary">Project</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col col-sm-4 col-md-4 col-lg-3 col-xs-4">
+
+                        <div class="card" style="width: 100%;">
+                            <br>
+                            <div class="card-body">
+                                <h4 class="card-title">SSN Code Busters</h4>
+                                <p class="card-text">
+                                    An Online Programming Judge for my College implemented
+                                    using Django framework.
+                                </p>
+                                <a target="_blank" href="https://chamow97.github.io/SSNCB/" class="btn btn-primary">Project</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col col-sm-6 col-md-6 col-lg-3 col-xs-6">
+
+                        <div class="card" style="width: 100%;">
+                            <br>
+                            <div class="card-body">
+                                <h4 class="card-title">IEEE Student Branch</h4>
+                                <p class="card-text">
+                                    IEEE Student Branch Website of my College implemented using
+                                    Django framework.
+                                </p>
+                                    <a href="https://github.com/SSN-IEEE/IEEESB" class="btn btn-primary" target="_blank">Project</a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col col-sm-6 col-md-6 col-lg-3 col-xs-6">
+
+                        <div class="card" style="width: 100%;">
+                            <br>
+                            <div class="card-body">
+                                <h4 class="card-title">Quotivate Me</h4>
+                                <p class="card-text">
+                                    A script which gives periodic Motivational Quotes and Motivational Videos
+                                    as notification.
+                                </p>
+                                <a href="https://chamow97.github.io/Quotivate-Me/" target="_blank" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                            <br>
                         </div>
                     </div>
                 </div>
-            <div class="section centerText whatIDoSection">
             </div>
 
         </div>

@@ -6,7 +6,7 @@ $(document).ready(function() {
 		lockAnchors: false,
 		anchors:['home', 'about', 'whatIDo?', 'projects'],
 		navigation: true,
-		navigationPosition: 'right',
+		navigationPosition: 'left',
 		navigationTooltips: ['Home', 'About', 'What I do?', 'Projects'],
 		showActiveTooltip: true,
 		slidesNavigation: true,
@@ -48,7 +48,7 @@ $(document).ready(function() {
 		//Design
 		controlArrows: true,
 		verticalCentered: true,
-		sectionsColor : ['#000000', '#ff3045', '#ffbd23', '#458eff'],
+		sectionsColor : ['#000000', '#4B0082', '#9ACD32', '#458eff'],
 		paddingTop: '3em',
 		paddingBottom: '10px',
 		fixedElements: '#header, .footer',
@@ -142,3 +142,8 @@ var typed = new Typed('.typedMusic', {
 function downAction(){
     $.fn.fullpage.moveSectionDown();
 }
+$('.projectShowcase').masonry({
+    // options
+    itemSelector: '.grid-item',
+    columnWidth: 200
+});

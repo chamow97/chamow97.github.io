@@ -89,6 +89,7 @@ body{
     color: #fff;
 }
 .highlightText{
+    color: white;
     text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
     #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
 }
@@ -123,11 +124,7 @@ a, a:hover, a:active, a:visited{
 .mediumFont{
     font-size: 22px;
 }
-.blackWhiteText{
-    color: black;
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
-}
+
 .whiteBlackText{
     color: white;
     text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
@@ -135,10 +132,53 @@ a, a:hover, a:active, a:visited{
 }
 .greenBlackText{
     color: darkblue;
-    text-shadow: greenyellow  0px 0px 1px,   greenyellow  0px 0px 1px,   greenyellow  0px 0px 1px,
-    greenyellow  0px 0px 1px,   greenyellow  0px 0px 1px,   greenyellow  0px 0px 1px;
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
 }
 .clipart1{
     height: 80px;
     width: 80px;
+}
+.whiteText{
+    color: white;
+}
+.projects-list{
+    margin: 2rem 3rem 0rem 0rem;
+}
+.card{
+    margin: 1rem 2rem 2rem 2rem;
+    background: #ffffff;
+}
+.card-text{
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+.card-title{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px;
+    color: #000;
+    border-radius: 8px;
+}
+.btn-primary{
+    background-color: azure;
+}
+.blackWhiteText{
+    color: black;
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+}
+.card:hover{
+    background-color: #00ff74;
+    transition: background-color 0.5s linear;
+}
+
+.btn-primary:hover{
+    background-color: blue;
+    transition: background-color 0.5s linear;
+}
+.fp-tooltip{
+    color: white !important;
+    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
+    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px !important;
 }
