@@ -28,14 +28,14 @@ body{
 .section{
     position: relative;
 }
-.red-heart{
+.yellow-heart{
     color: greenyellow;
     text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
     #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
     animation-iteration-count: 100000;
 }
-.blue-heart{
-    color: #15f4ee;
+.red-heart{
+    color: red;
     text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
     #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
     animation-iteration-count: 100000;
@@ -86,7 +86,7 @@ body{
 .cursiveFont{
     font-family: 'Droid Sans', sans-serif;
     font-size: 25px;
-    color: #fff;
+    color: #000;
 }
 .highlightText{
     color: white;
@@ -148,6 +148,7 @@ a, a:hover, a:active, a:visited{
 .card{
     margin: 1rem 2rem 2rem 2rem;
     background: #ffffff;
+    border-color: #00ff74;
 }
 .card-text{
     font-family: 'Droid Sans', sans-serif;
@@ -156,7 +157,7 @@ a, a:hover, a:active, a:visited{
 }
 .card-title{
     font-family: "Ubuntu", sans-serif;
-    font-size: 25px;
+    font-size: 23px;
     color: #000;
     border-radius: 8px;
 }
@@ -178,7 +179,87 @@ a, a:hover, a:active, a:visited{
     transition: background-color 0.5s linear;
 }
 .fp-tooltip{
-    color: white !important;
-    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
-    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px !important;
+    font-size: 16px !important;
+    color: black !important;
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px !important;
+}
+.margin-five{
+    margin-top: 5%;
+}
+.margin-three{
+    margin-top: 3%;
+}
+.btn-success{
+    background-color: #fff;
+    color: black;
+}
+.btn-success:hover{
+    background-color: #9acfea;
+    color: black;
+    transition: background-color 0.5s linear;
+}
+.hello-btn a{
+    color: black;
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+}
+.fa-3x{
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+    transition: text-shadow 0.5s linear;
+    margin: 10px 10px 10px 10px;
+    color: white;
+}
+.fa-linkedin:hover{
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+    transition: text-shadow 0.5s linear;
+    color: #007bb5;
+    transition: color 0.5s linear;
+}
+.fa-facebook:hover{
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+    transition: text-shadow 0.5s linear;
+    color: #3b5998;
+    transition: color 0.5s linear;
+}
+.fa-github:hover{
+    color: #000000;
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+    transition: text-shadow 0.5s linear;
+    transition: color 0.5s linear;
+}
+.fa-twitter:hover{
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+    transition: text-shadow 0.5s linear;
+    color: #55acee;
+    transition: color 0.5s linear;
+
+}
+.otherlinks{
+    color: black !important;
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+
+}
+.otherlinks:hover{
+    color: black !important;
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+
+}
+.socialLinks{
+    color: transparent !important;
+    text-shadow: transparent  0px 0px 1px,   transparent  0px 0px 1px,   transparent  0px 0px 1px,
+    transparent  0px 0px 1px,   transparent  0px 0px 1px,   transparent  0px 0px 1px;
+}
+
+.socialLinks:hover{
+    color: transparent !important;
+    text-shadow: transparent  0px 0px 1px,   transparent  0px 0px 1px,   transparent  0px 0px 1px,
+    transparent  0px 0px 1px,   transparent  0px 0px 1px,   transparent  0px 0px 1px;
 }

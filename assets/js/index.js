@@ -4,10 +4,10 @@ $(document).ready(function() {
 		//Navigation
 		menu: '#menu',
 		lockAnchors: false,
-		anchors:['home', 'about', 'whatIDo?', 'projects', 'stalkme'],
+		anchors:['home', 'about', 'whatIDo?', 'projects', 'contact'],
 		navigation: true,
 		navigationPosition: 'left',
-		navigationTooltips: ['Home', 'About', 'What I do?', 'Projects', 'Stalk Me!'],
+		navigationTooltips: ['Home', 'About', 'What I do?', 'Projects', 'Contact'],
 		showActiveTooltip: true,
 		slidesNavigation: true,
 		slidesNavPosition: 'bottom',
@@ -48,7 +48,7 @@ $(document).ready(function() {
 		//Design
 		controlArrows: true,
 		verticalCentered: true,
-		sectionsColor : ['#000000', '#DD3232', '#9ACD32', '#458eff'],
+		sectionsColor : ['#000000', '#74AFAD', '#ECECEA', '#558C89', '#585858'],
 		paddingTop: '3em',
 		paddingBottom: '10px',
 		fixedElements: '#header, .footer',
