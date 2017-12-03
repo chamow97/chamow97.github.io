@@ -240,6 +240,13 @@ a, a:hover, a:active, a:visited{
     transition: color 0.5s linear;
 
 }
+.fa-quora:hover{
+    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
+    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+    transition: text-shadow 0.5s linear;
+    color: #a62100;
+    transition: color 0.5s linear;
+}
 .otherlinks{
     color: black !important;
     text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
