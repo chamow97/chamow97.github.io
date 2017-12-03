@@ -79,7 +79,7 @@ var typed = new Typed('.typed', {
     // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
     stringsElement: null,
     // typing speed
-    typeSpeed: 0.001,
+    typeSpeed: 70,
     // time before typing starts
     startDelay: 0,
     // backspacing speed
@@ -111,7 +111,7 @@ var typed = new Typed('.typedMusic', {
     // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
     stringsElement: null,
     // typing speed
-    typeSpeed: 0.001,
+    typeSpeed: 70,
     // time before typing starts
     startDelay: 0,
     // backspacing speed
