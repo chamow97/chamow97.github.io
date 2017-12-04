@@ -73,7 +73,7 @@ header a, a:visited {
 }
 
 .stars {
-    background:#000 url('../images/other/stars.png') repeat top center;
+    background:#fff url('../images/other/stars.png') repeat top center;
     z-index:0;
 }
 
@@ -89,9 +89,9 @@ header a, a:visited {
 }
 
 .clouds{
+    background-color: white!important;
     background:transparent url('../images/other/clouds3.png') repeat top center;
     z-index:3;
-
     -moz-animation:move-clouds-back 200s linear infinite;
     -ms-animation:move-clouds-back 200s linear infinite;
     -o-animation:move-clouds-back 200s linear infinite;
