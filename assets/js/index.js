@@ -42,7 +42,7 @@ $(document).ready(function() {
 
 		//Accessibility
 		keyboardScrolling: true,
-		animateAnchor: true,
+		animateAnchor: false,
 		recordHistory: true,
 
 		//Design
@@ -111,7 +111,7 @@ var typed = new Typed('.typedMusic', {
     // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
     stringsElement: null,
     // typing speed
-    typeSpeed: 70,
+    typeSpeed: 100,
     // time before typing starts
     startDelay: 0,
     // backspacing speed

@@ -27,6 +27,7 @@ body{
 }
 .section{
     position: relative;
+    height: 100%;
 }
 .yellow-heart{
     color: greenyellow;
@@ -40,14 +41,7 @@ body{
     #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
     animation-iteration-count: 100000;
 }
-.down-glyphicon{
-    font-size: 40px;
-    color: white;
-}
-.downButton{
-    position : absolute;
-    bottom : 0;
-}
+
 .delay-1{
     animation-delay: .25s;
 }
@@ -63,22 +57,7 @@ body{
 .highlight2{
      color: #00ff74;
  }
-@media only screen and (max-device-width : 600px)
-{
-    body
-    {
-        margin: 0px 0px 0px 0px;
-        font-size: 23px;
-    }
-}
-.downControl{
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-}
+
 .about{
     margin: 0px 0px 0px 0px;
 
@@ -89,9 +68,9 @@ body{
     color: #000;
 }
 .highlightText{
-    color: white;
-    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
-    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
+    color: black;
+    /*text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,*/
+    /*#000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;*/
 }
 .centerText{
     margin-left: auto;
@@ -100,20 +79,9 @@ body{
 }
 
 a, a:hover, a:active, a:visited{
-    color: white;
-    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
-    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
+    color: black !important;
 }
-.highlightText:visited{
-    color: white;
-    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
-    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
-}
-.highlightText:hover{
-    color: black;
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
-}
+
 .francoisFont{
     font-family: 'Francois One', sans-serif;
 }
@@ -122,19 +90,19 @@ a, a:hover, a:active, a:visited{
     width: 100px;
 }
 .mediumFont{
-    font-size: 22px;
+    font-size: 20px;
 }
 
-.whiteBlackText{
-    color: white;
-    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
-    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
-}
-.greenBlackText{
-    color: #2c3650;
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
-}
+/*.whiteBlackText{*/
+    /*color: white;*/
+    /*text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,*/
+    /*#000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;*/
+/*}*/
+/*.greenBlackText{*/
+    /*color: #2c3650;*/
+    /*text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,*/
+    /*#fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;*/
+/*}*/
 .clipart1{
     height: 80px;
     width: 80px;
@@ -152,12 +120,12 @@ a, a:hover, a:active, a:visited{
 }
 .card-text{
     font-family: 'Droid Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #000;
 }
 .card-title{
     font-family: "Ubuntu", sans-serif;
-    font-size: 23px;
+    font-size: 20px;
     color: #000;
     border-radius: 8px;
 }
@@ -166,8 +134,6 @@ a, a:hover, a:active, a:visited{
 }
 .blackWhiteText{
     color: black;
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
 }
 .card:hover{
     background-color: #00ff74;
@@ -175,14 +141,15 @@ a, a:hover, a:active, a:visited{
 }
 
 .btn-primary:hover{
-    background-color: blue;
+    background-color: azure;
     transition: background-color 0.5s linear;
 }
+
 .fp-tooltip{
     font-size: 16px !important;
-    color: black !important;
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px !important;
+    color: white !important;
+    text-shadow: blue  0px 0px 0.5px,   blue  0px 0px 0.5px,   blue  0px 0px 0.5px,
+    blue  0px 0px 0.5px,   blue  0px 0px 0.5px,   blue  0px 0px 0.5px !important;
 }
 .margin-five{
     margin-top: 5%;
@@ -194,79 +161,65 @@ a, a:hover, a:active, a:visited{
     background-color: #fff;
     color: black;
 }
+.btn-success a{
+    color: black !important;
+}
 .btn-success:hover{
-    background-color: #9acfea;
+    background-color: azure;
     color: black;
     transition: background-color 0.5s linear;
 }
-.hello-btn a{
-    color: black;
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
-}
 .fa-3x{
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
-    transition: text-shadow 0.5s linear;
+
     margin: 10px 10px 10px 10px;
     color: white;
 }
 .fa-linkedin:hover{
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
-    transition: text-shadow 0.5s linear;
+
     color: #007bb5;
     transition: color 0.5s linear;
 }
 .fa-facebook:hover{
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
-    transition: text-shadow 0.5s linear;
+
     color: #3b5998;
     transition: color 0.5s linear;
 }
 .fa-github:hover{
     color: #000000;
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
-    transition: text-shadow 0.5s linear;
+
     transition: color 0.5s linear;
 }
 .fa-twitter:hover{
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
-    transition: text-shadow 0.5s linear;
+
     color: #55acee;
     transition: color 0.5s linear;
 
 }
 .fa-quora:hover{
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
-    transition: text-shadow 0.5s linear;
+
     color: #a62100;
     transition: color 0.5s linear;
 }
 .otherlinks{
     color: black !important;
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+
 
 }
 .otherlinks:hover{
     color: black !important;
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
-
 }
 .socialLinks{
     color: transparent !important;
-    text-shadow: transparent  0px 0px 1px,   transparent  0px 0px 1px,   transparent  0px 0px 1px,
-    transparent  0px 0px 1px,   transparent  0px 0px 1px,   transparent  0px 0px 1px;
 }
 
 .socialLinks:hover{
     color: transparent !important;
-    text-shadow: transparent  0px 0px 1px,   transparent  0px 0px 1px,   transparent  0px 0px 1px,
-    transparent  0px 0px 1px,   transparent  0px 0px 1px,   transparent  0px 0px 1px;
+}
+.fp-responsive #mySection,
+.fp-responsive #mySection .fp-slide,
+.fp-responsive #mySection .fp-tableCell{
+    height: auto !important;
+}
+.section{
+    height: 100% !important;
 }
