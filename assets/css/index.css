@@ -15,8 +15,8 @@ body{
 }
 
 .profile-pic{
-    height: 150px;
-    width: 200px;
+    height: auto;
+    width: auto;
     border-radius: 10%;
 }
 
@@ -37,8 +37,8 @@ body{
 }
 .red-heart{
     color: red;
-    text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,
-    #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;
+    text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,
+    #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;
     animation-iteration-count: 100000;
 }
 
@@ -63,14 +63,12 @@ body{
 
 }
 .cursiveFont{
-    font-family: 'Droid Sans', sans-serif;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
     font-size: 25px;
     color: #000;
 }
 .highlightText{
     color: black;
-    /*text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,*/
-    /*#000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;*/
 }
 .centerText{
     margin-left: auto;
@@ -80,8 +78,16 @@ body{
 
 a, a:hover, a:active, a:visited{
     color: black !important;
+    text-decoration: underline;
 }
-
+.btn{
+    color: black !important;
+    text-decoration: none !important;
+}
+.vertical-line {
+    border-left: thin solid #000;
+    margin-left: 10%;
+}
 .francoisFont{
     font-family: 'Francois One', sans-serif;
 }
@@ -92,17 +98,12 @@ a, a:hover, a:active, a:visited{
 .mediumFont{
     font-size: 20px;
 }
-
-/*.whiteBlackText{*/
-    /*color: white;*/
-    /*text-shadow: #000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px,*/
-    /*#000  0px 0px 1px,   #000  0px 0px 1px,   #000  0px 0px 1px;*/
-/*}*/
-/*.greenBlackText{*/
-    /*color: #2c3650;*/
-    /*text-shadow: #fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px,*/
-    /*#fff  0px 0px 1px,   #fff  0px 0px 1px,   #fff  0px 0px 1px;*/
-/*}*/
+.left-ten{
+    margin-left: 10%;
+}
+.left-seven{
+    margin-left: 7%;
+}
 .clipart1{
     height: 80px;
     width: 80px;
@@ -116,7 +117,8 @@ a, a:hover, a:active, a:visited{
 .card{
     margin: 1rem 2rem 2rem 2rem;
     background: #ffffff;
-    border-color: #00ff74;
+    border-color: transparent;
+    box-shadow: 0px 6px 6px 3px grey;
 }
 .card-text{
     font-family: 'Droid Sans', sans-serif;
@@ -135,10 +137,7 @@ a, a:hover, a:active, a:visited{
 .blackWhiteText{
     color: black;
 }
-.card:hover{
-    background-color: #00ff74;
-    transition: background-color 0.5s linear;
-}
+
 
 .btn-primary:hover{
     background-color: azure;
@@ -146,10 +145,17 @@ a, a:hover, a:active, a:visited{
 }
 
 .fp-tooltip{
+    font-weight: 900;
     font-size: 16px !important;
-    color: white !important;
-    text-shadow: blue  0px 0px 0.5px,   blue  0px 0px 0.5px,   blue  0px 0px 0.5px,
-    blue  0px 0px 0.5px,   blue  0px 0px 0.5px,   blue  0px 0px 0.5px !important;
+    color: red !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    font-weight: 900;
+    font-size: 16px !important;
+    color: red !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 .margin-five{
     margin-top: 5%;
@@ -222,4 +228,7 @@ a, a:hover, a:active, a:visited{
 }
 .section{
     height: 100% !important;
+}
+.description{
+    margin-top: 40px;
 }
