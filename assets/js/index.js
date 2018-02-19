@@ -107,7 +107,7 @@ var typed = new Typed('.typed', {
     resetCallback: function() {}
 });
 var typed = new Typed('.typedMusic', {
-    strings: ["AR Rahman", "Akon", "Ilayaraja", "Taylor Swift"],
+    strings: ["AR Rahman", "Akon", "Ilayaraja"],
     // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
     stringsElement: null,
     // typing speed
