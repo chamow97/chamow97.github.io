@@ -1,5 +1,6 @@
 body{
     margin: 0px 0px 0px 0px;
+    background-color: rgb(88, 88, 88);
 }
 
 .background-img{
@@ -243,6 +244,11 @@ a, a:hover, a:active, a:visited{
 
 .fa-quora:hover{
     color: #a62100;
+    transition: color 0.5s linear;
+}
+
+.fa-instagram:hover{
+    color: rgba(255, 115, 122, 0.959);
     transition: color 0.5s linear;
 }
 
